@@ -231,9 +231,9 @@
     <nav aria-label="主导航">
       <ul class="nav-list">
         <li><button type="button" class="nav-button" data-page="home">首页</button></li>
-        <li><button type="button" class="nav-button" data-page="app">打开 APP</button></li>
         <li><button type="button" class="nav-button" data-page="follow">关注</button></li>
         <li><button type="button" class="nav-button" data-page="iso">ISO</button></li>
+        <li><button type="button" class="nav-button" data-page="friendly links">友链</button></li>
         <li><button type="button" class="nav-button" id="contactButton">联系</button></li>
       </ul>
     </nav>
@@ -243,19 +243,16 @@
     <section id="home" class="card page" aria-labelledby="homeTitle">
       <h1 id="homeTitle">欢迎来到 SYSTEM-WIN-VER</h1>
       <p>请在导航栏中选择您想要访问的内容。</p>
-    </section>
-
-    <section id="app" class="card page" aria-labelledby="appTitle" hidden>
-      <h1 id="appTitle">快速打开</h1>
-      <div class="button-stack">
-        <button type="button" class="btn" data-external-url="https://www.123865.com/s/JK1Bvd-QNIl?notoken=1&amp;pwd=3RkK">立即前往</button>
-      </div>
+      <p>求关注和给视频点赞，网站的运营成本不低，在白嫖我，我就要流浪大街了😭</p>
     </section>
 
     <section id="iso" class="card page" aria-labelledby="isoTitle" hidden>
       <h1 id="isoTitle">获取 ISO</h1>
       <div class="button-stack">
         <button type="button" class="btn" data-external-url="https://1851622828.share.123865.com/123pan/JK1Bvd-OOlb">前往下载</button>
+        <p id="isoTitle">建议先注册登录在下载</p>
+        <p id="isoTitle">求关注！！！😭</p>
+        <p id="isoTitle">不要在白嫖我了！！！</p>
       </div>
     </section>
 
@@ -268,6 +265,12 @@
       </div>
     </section>
 
+    <section id="friendly links" class="card page" aria-activedescendant="friendly links"hidden>
+      <h1 id="friendly links">这些是我的朋友的网站（也有我的）</h1>
+      <button type="button"class="btn" data-external-url="https://blog.0y.hk/">onlyfork依托小肥物</button>
+      <h1></h1>
+      <button type="button"class="btn" data-external-url="https://winver.qzz.io">我的老网站，仍然运行，一些新功能都先在这里上线</button>
+    </section>
   </main>
 
   <div id="contactModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="contactTitle" hidden>
@@ -275,7 +278,6 @@
       <h2 id="contactTitle">联系我</h2>
       <p class="contact-line">QQ：2353724883</p>
       <div class="modal-actions">
-        <button type="button" class="btn" data-external-url="https://qm.qq.com/q/yXhZBOXgUa">加入 QQ 群</button>
         <p class="contact-line">邮箱：cchyts@qq.com</p>
         <p class="contact-line">systemwinver@gmail.com</p>
         <button type="button" class="close-button" id="closeContactButton">关闭</button>
